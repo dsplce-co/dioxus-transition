@@ -1,3 +1,5 @@
+> We're dsplce.co, check out our work on [github.com/dsplce-co](https://github.com/dsplce-co) 🖤
+
 # dioxus-transition
 
 > 🎬 Seamless transitions in [Dioxus](https://dioxuslabs.com/), inspired by Vue’s `<Transition>` — declarative, built-in, composable.
