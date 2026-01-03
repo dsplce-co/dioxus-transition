@@ -151,6 +151,8 @@ Use any CSS class name as `kind`. All that matters is you provide these two clas
 | `0.7`          | `0.3`                       |
 | `0.6`          | `0.2`                       |
 
+---
+
 ## 📁 Repo & Contributions
 
 📦 Crate: [crates.io/crates/dioxus-transition](https://crates.io/crates/dioxus-transition)<br/>
