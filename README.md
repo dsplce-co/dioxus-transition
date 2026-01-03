@@ -24,16 +24,18 @@ Add it to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-dioxus-transition = { version = "0.2" }
+dioxus-transition = { version = "0.3" }
 ```
 or:
 
 ```toml
 [dependencies]
-dioxus-transition = { version = "0.2", default-features = false }
+dioxus-transition = { version = "0.3", default-features = false }
 ```
 
 to disable the default stylesheet (opt out of default transition kinds).
+
+The latest version of this crate requires Dioxus version 0.7. Check the [compatibility table](#compatibility-with-dioxus-versions) for other supported Dioxus versions.
 
 ### Fullstack applications
 
@@ -141,6 +143,13 @@ Use any CSS class name as `kind`. All that matters is you provide these two clas
 * `.<kind>-transition-activating` — visible state
 
 ---
+
+## Compatibility with Dioxus versions
+
+| Dioxus version | `dioxus-transition` version |
+|:---------------|:----------------------------|
+| `0.7`          | `0.3`                       |
+| `0.6`          | `0.2`                       |
 
 ## 📁 Repo & Contributions
 

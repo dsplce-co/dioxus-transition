@@ -12,14 +12,14 @@ pub fn Transition(
     children: Element,
 
     /// The id of the element within the tree to animate.
-    id: ReadOnlySignal<String>,
+    id: ReadSignal<String>,
 
     /// The kind of animation to conduct, you can either use one of the built-in transitions
     /// or create your own.
     ///
     /// Built-in transitions are enabled and injected by default, you can opt out by setting the
     /// `default-features = false` in your `Cargo.toml`.
-    kind: ReadOnlySignal<String>,
+    kind: ReadSignal<String>,
 
     /// The duration of the animation in milliseconds.
     duration: u32,

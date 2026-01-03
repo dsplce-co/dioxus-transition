@@ -3,17 +3,17 @@ name = "dioxus-transition"
 description = "A Dioxus component for enter/leave transitions"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/dsplce-co/dioxus-transition"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2024"
 
 [dependencies]
-dioxus = "0.6.3"
+dioxus = "0.7"
 instant = "0.1.13"
 wasm-bindgen = "0.2.99"
 async-std = "1.12.0"
 gloo = { version = "0.11.0", features = ["utils"] }
 futures-channel = "0.3.31"
-dioxus-document = "0.6.3"
+dioxus-document = "0.7"
 
 [dependencies.web-sys]
 version = "0.3.70"

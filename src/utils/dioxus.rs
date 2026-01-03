@@ -1,3 +1,4 @@
+use dioxus::core::VNodeInner;
 use dioxus::dioxus_core::DynamicNode;
 use dioxus::prelude::*;
 use std::ops::Deref;
