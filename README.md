@@ -24,16 +24,27 @@ Add it to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-dioxus-transition = { version = "0.1" }
+dioxus-transition = { version = "0.2" }
 ```
 or:
 
 ```toml
 [dependencies]
-dioxus-transition = { version = "0.1", default-features = false }
+dioxus-transition = { version = "0.2", default-features = false }
 ```
 
 to disable the default stylesheet (opt out of default transition kinds).
+
+### Fullstack applications
+
+You need to enable the crate's SSR feature on the server for fullstack apps:
+
+```toml
+[features]
+server = ["dioxus/server", "dioxus-transition/ssr"]
+```
+
+This will tell `dioxus-transition` not to perform DOM-related operations at the stage of server side rendering.
 
 ---
 

@@ -29,7 +29,7 @@ pub fn Transition(
     #[props(default)]
     ignore_first: bool,
 ) -> Element {
-    #[cfg(feature = "builtins")]
+    #[cfg(all(feature = "builtins", not(feature = "ssr")))]
     utils::int::inject_default_stylesheet();
 
     let mut backup_element: Signal<Option<Element>> = use_signal(|| None);
