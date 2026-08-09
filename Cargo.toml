@@ -3,7 +3,8 @@ name = "dioxus-transition"
 description = "A Dioxus component for enter/leave transitions"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/dsplce-co/dioxus-transition"
-version = "0.3.3"
+homepage = "https://dsplce.co/our-work/dioxus-transition"
+version = "0.3.4"
 edition = "2024"
 
 [dependencies]
